@@ -13,7 +13,7 @@ Projeto para auxiliar nos estudos sobre as diversas formas de gerenciar um estad
 ## Ferramentas utilizadas
 
 - Imagem gráfica: syncfusion_flutter_gauges: ^21.1.37;
-- Formatador de formulários: currency_text_input_formatter: ^2.1.9
+- Formatador de formulários (máscaras): currency_text_input_formatter: ^2.1.9
 
 ## Execução de testes
 
