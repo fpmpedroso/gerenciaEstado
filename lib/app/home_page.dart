@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gerencia_estado/widgets/button_widget.dart';
+import 'package:gerencia_estado/app/core/ui/widgets/button_widget.dart';
 
 class HomePage extends StatelessWidget {
 
