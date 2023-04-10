@@ -53,6 +53,22 @@ Projeto para auxiliar nos estudos sobre as diversas formas de gerenciar um estad
 ## explicação do arquivo de configuração da UI
 
 
+## cores
+- #40C4FF: azul mais claro;
+- #03A9F4: azul claro;
+- #01579B: azul médio;
+- #084994: azul escuro;
+- #1C1C1C: cinza escuro;
+- #A9A9A9: cinza médio;
+- #FF8C00: laranja escuro;
+- #FFA500: laranja claro;
+- #FFA500: cenoura;
+
+
+## Assets
+- assets/images/splash_page_logo.png;
+
+
 
 
 
@@ -69,3 +85,7 @@ Projeto para auxiliar nos estudos sobre as diversas formas de gerenciar um estad
 - configura-se o tema padrão;
 - declara-se o tema no arquivo gerencia_estado_app.dart;
 - criação do botão padrão: button_widget.dart;
+- criação da pasta helpers;
+- criação da classe SizeExtensions;
+- criação da splash_page.dart;
+- importação da imagem da splashPage (assets/images);

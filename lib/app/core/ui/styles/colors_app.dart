@@ -13,8 +13,13 @@ class ColorsApp {
     return _instance!;
   }
 
-  Color get primary => const Color(0XFF007D21);
-  Color get secondary => const Color(0XFFF88B0C);
+  Color get primary => const Color(0xff007D21);
+  Color get secondary => const Color(0xffF88B0C);
+
+  //demais cores
+
+  //cor de fundo da splashPage
+  Color get backgroundSplash => const Color(0xffFFFFFF);
 }
 
 // adiciona uma extensão no BuildContext para que a cor seja acessada facilmente: "context.colors.primary";

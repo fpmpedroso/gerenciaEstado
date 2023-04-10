@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gerencia_estado/app/home_page.dart';
+import 'package:gerencia_estado/app/gerencia_estado_app.dart';
 
 void main() {
-  runApp(const HomePage());
+  runApp(const GerenciaEstadoApp());
 }
