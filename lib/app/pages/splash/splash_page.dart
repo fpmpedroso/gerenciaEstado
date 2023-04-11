@@ -18,43 +18,44 @@ class SplashPage extends StatelessWidget {
 
     return Scaffold(
       body: ColoredBox(
-        color: context.colors.backgroundSplash,
+        color: context.colors.whiteApp,
         child: Center(
           child: SingleChildScrollView(
             child: Padding(
-              padding: const EdgeInsets.all(15),
+              padding: const EdgeInsets.all(5),
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  Center(
-                    child: SizedBox(
-                      width: widthLogo,
-                      height: heightLogo,
-                      child: Image.asset(
-                        'assets/images/splash_page_logo.png',
-                        fit: BoxFit.cover,
-                      ),
+                  SizedBox(
+                    width: widthLogo,
+                    height: heightLogo,
+                    child: Image.asset(
+                      'assets/images/splash_page_logo.png',
+                      fit: BoxFit.cover,
                     ),
                   ),
                   const SizedBox(
-                    height: 20,
+                    height: 30,
                   ),
                   Center(
                     child: Text(
                       'GERÊNCIA DE ESTADO',
-                      style: context.textsApp.textBold,
+                      style: context.textsApp.textBold.copyWith(
+                        fontSize: 20,
+                        color: context.colors.primary
+                      ),
                     ),
                   ),
                   const SizedBox(
-                    height: 60,
+                    height: 80,
                   ),
                   ButtonWidget(
                     onPressed: (){},
                     label: 'Acessar',
+                    color: context.colors.lightBlue,
                     width: context.percentWidth(0.5),
-                    heitght: 35,
+                    height: 35,
                   ),
                 ],
               ),

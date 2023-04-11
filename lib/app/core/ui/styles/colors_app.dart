@@ -17,9 +17,21 @@ class ColorsApp {
   Color get secondary => const Color(0xffF88B0C);
 
   //demais cores
+  Color get whiteApp => Colors.white;
+  Color get plusLightBlue => const Color(0xff40C4FF);
+  Color get lightBlue => const Color(0xff03A9F4);
 
-  //cor de fundo da splashPage
-  Color get backgroundSplash => const Color(0xffFFFFFF);
+  /*
+  - #40C4FF: azul mais claro;
+- #03A9F4: azul claro;
+- #01579B: azul médio;
+- #084994: azul escuro;
+- #1C1C1C: cinza escuro;
+- #A9A9A9: cinza médio;
+- #FF8C00: laranja escuro;
+- #FFA500: laranja claro;
+- #FFA500: cenoura;
+  */
 }
 
 // adiciona uma extensão no BuildContext para que a cor seja acessada facilmente: "context.colors.primary";
